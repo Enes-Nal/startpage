@@ -42,9 +42,9 @@ const default_config = {
           },
           {
             name: "",
-            url: "https://web.whatsapp.com/",
-            icon: "brand-whatsapp",
-            icon_color: "#a9b665",
+            url: "https://www.roblox.com",
+            icon: "assembly",
+            icon_color: "#d3869b",
           },
           {
             name: "",
@@ -52,6 +52,13 @@ const default_config = {
             icon: "brand-twitter-filled",
             icon_color: "#7daea3",
           },
+          {
+            name: "",
+            url: "https://web.whatsapp.com/",
+            icon: "brand-whatsapp",
+            icon_color: "#a9b665",
+          },
+
           {
             name: "",
             url: "https://www.reddit.com/",
@@ -65,6 +72,7 @@ const default_config = {
             icon: "brand-twitch",
             icon_color: "#d3869b",
           },
+          
         ],
       }, {
         name: "School",
