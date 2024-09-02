@@ -29,78 +29,81 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "chi ll",
-      background_url: "src/img/banners/cbg-2.gif",
+      name: "main",
+      background_url: "src/img/banners/cbg-12.gif",
       categories: [{
         name: "Social Media",
         links: [
           {
-            name: "whatsapp",
-            url: "https://web.whatsapp.com/",
-            icon: "brand-whatsapp",
-            icon_color: "#a9b665",
-          },
-          {
-            name: "twitter",
-            url: "https://twitter.com/home",
-            icon: "brand-twitter-filled",
-            icon_color: "#7daea3",
-          },
-          {
-            name: "reddit",
-            url: "https://www.reddit.com/",
-            icon: "brand-reddit",
-            icon_color: "#e78a4e",
-          },
-          {
-            name: "youtube",
+            name: "",
             url: "https://www.youtube.com/",
             icon: "brand-youtube-filled",
             icon_color: "#ea6962",
           },
           {
-            name: "twitch",
+            name: "",
+            url: "https://web.whatsapp.com/",
+            icon: "brand-whatsapp",
+            icon_color: "#a9b665",
+          },
+          {
+            name: "",
+            url: "https://twitter.com/home",
+            icon: "brand-twitter-filled",
+            icon_color: "#7daea3",
+          },
+          {
+            name: "",
+            url: "https://www.reddit.com/",
+            icon: "brand-reddit",
+            icon_color: "#e78a4e",
+          },
+
+          {
+            name: "",
             url: "https://www.twitch.tv/",
             icon: "brand-twitch",
             icon_color: "#d3869b",
           },
         ],
       }, {
-        name: "Games",
+        name: "School",
         links: [
           {
-            name: "chess",
-            url: "https://www.chess.com/home",
-            icon: "chess-queen-filled",
-            icon_color: "#a9b665",
+            name: "myasu",
+            url: "https://webapp4.asu.edu/myasu/student",
+            icon: "school",
+            icon_color: "#811a3f",
           },
           {
-            name: "monkeytype",
-            url: "https://monkeytype.com/",
-            icon: "keyboard",
+            name: "canvas",
+            url: "https://canvas.asu.edu/",
+            icon: "assembly",
             icon_color: "#e78a4e",
           },
           {
-            name: "tetris",
-            url: "https://tetris.com/",
-            icon: "brand-apple-arcade",
-            icon_color: "#ea6962",
+            name: "docs",
+            url: "https://docs.google.com/document/u/0/",
+            icon: "file",
+            icon_color: "#4484f4",
           },
         ],
       }, {
-        name: "Video",
+        
+      
+        name: "vids",
         links: [
           {
-            name: "disney+",
-            url: "https://www.disneyplus.com/home",
-            icon: "brand-disney",
-            icon_color: "#7daea3",
+            name: "",
+            url: "https://hianime.to/home",
+            icon: "brand-funimation",
+            icon_color: "#f4b5d6",
           },
           {
-            name: "primevideo",
-            url: "https://www.primevideo.com/region/eu/?ref_=dv_web_unknown",
-            icon: "brand-amazon",
-            icon_color: "#7daea3",
+            name: "",
+            url: "https://www.netflix.com",
+            icon: "brand-netflix",
+            icon_color: "#e60414",
           },
         ],
       }],
@@ -142,28 +145,28 @@ const default_config = {
           name: "resources",
           links: [
             {
-              name: "figma",
+              name: "",
               url: "https://www.figma.com",
               icon: "brand-figma",
               icon_color: "#d3869b",
             },
             {
-              name: "uxpro",
-              url: "https://uxpro.cc/",
-              icon: "components",
-              icon_color: "#a9b665",
+              name: "picker",
+              url: "https://imagecolorpicker.com/",
+              icon: "color-picker",
+              icon_color: "#de0633",
             },
             {
-              name: "colorhunt",
+              name: "pallate",
               url: "https://colorhunt.co/",
-              icon: "color-picker",
+              icon: "color-filter",
               icon_color: "#ea6962",
             },
             {
-              name: "adobe color",
-              url: "https://color.adobe.com/es/create/color-wheel",
-              icon: "brand-adobe",
-              icon_color: "#7daea3",
+              name: "cobalt",
+              url: "https://cobalt.tools/",
+              icon: "arrow-big-right-line",
+              icon_color: "#060408",
             },
             {
               name: "terminalsexy",
@@ -289,6 +292,57 @@ const default_config = {
               name: "drive",
               url: "https://drive.google.com/drive/u/0/my-drive",
               icon: "brand-google-drive",
+              icon_color: "#e78a4e",
+            },
+            {
+              name: "dropbox",
+              url: "https://www.dropbox.com/h?role=personal&di=left_nav",
+              icon: "box-seam",
+              icon_color: "#7daea3",
+            },
+            {
+              name: "fotos",
+              url: "https://photos.google.com/u/1",
+              icon: "photo-filled",
+              icon_color: "#ea6962",
+            },
+          ],
+        },
+        {
+          name: "stuff",
+          links: [
+            {
+              name: "linkedin",
+              url: "https://www.linkedin.com/feed/",
+              icon: "brand-linkedin",
+              icon_color: "#7daea3",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: "START",
+      background_url: "src/img/banners/cbg-9.gif",
+      categories: [
+        {
+          name: "mine",
+          links: [
+            {
+              name: "m.e.n",
+              url: "https://github.com/Enes-Nal/startpage",
+              icon: "hexagon-letter-m",
+              icon_color: "#fefffe",
+            },
+          ],
+        },
+        {
+          name: "others",
+          links: [
+            {
+              name: "tressley",
+              url: "https://tressley.github.io/_traichu/index.html",
+              icon: "flame",
               icon_color: "#e78a4e",
             },
             {
