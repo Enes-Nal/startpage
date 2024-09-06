@@ -17,6 +17,7 @@ const default_config = {
       y: ["https://youtube.com/results?search_query=", "Youtube"],
       r: ["https://www.reddit.com/search/?q=", "Reddit"],
       p: ["https://www.pinterest.es/search/pins/?q=", "Pinterest"],
+      r: ["https://www.roblox.com/discover/?Keyword=", "Roblox"],
     },
   },
   keybindings: {
@@ -102,16 +103,22 @@ const default_config = {
         name: "vids",
         links: [
           {
-            name: "",
+            name: "hianime",
             url: "https://hianime.to/home",
             icon: "brand-funimation",
             icon_color: "#f4b5d6",
           },
           {
-            name: "",
+            name: "netflix",
             url: "https://www.netflix.com",
             icon: "brand-netflix",
             icon_color: "#e60414",
+          },
+          {
+            name: "anilist",
+            url: "https://anilist.co/home",
+            icon: "air-balloon",
+            icon_color: "#4450f9",
           },
         ],
       }],
