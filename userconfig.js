@@ -73,7 +73,12 @@ const default_config = {
             icon: "brand-twitch",
             icon_color: "#d3869b",
           },
-          
+          {
+            name: "",
+            url: "https://discord.com/app",
+            icon: "brand-discord",
+            icon_color: "#7289DA",
+          },
         ],
       }, {
         name: "School",
