@@ -43,6 +43,12 @@ const default_config = {
           },
           {
             name: "",
+            url: "https://studio.youtube.com/channel/UCTve2CSU6WLmsvCx66HVp5w",
+            icon: "brand-youtube-filled",
+            icon_color: "#2596be",
+          },
+          {
+            name: "",
             url: "https://www.roblox.com",
             icon: "assembly",
             icon_color: "#d3869b",
